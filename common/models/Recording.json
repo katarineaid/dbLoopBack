@@ -1,0 +1,91 @@
+{
+  "name": "Recording",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "NRH": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "uuid"
+    },
+    "Nreport": {
+      "type": "string",
+      "required": true
+    },
+    "Income_and_expense_budget": {
+      "type": "string",
+      "required": true
+    },
+    "Income_and_expense_budget_fact": {
+      "type": "string",
+      "required": true
+    },
+    "Accounts_receivable_report": {
+      "type": "string",
+      "required": true
+    },
+    "Creditor_indebtedness": {
+      "type": "string",
+      "required": true
+    },
+    "Aggregates_FOT_FGYP_plan": {
+      "type": "string",
+      "required": true
+    },
+    "Aggregates_FOT_FGYP_fact": {
+      "type": "string",
+      "required": true
+    },
+    "The_profitability_of_real_estate_plan": {
+      "type": "string",
+      "required": true
+    },
+    "The_profitability_of_real_estate_fact": {
+      "type": "string",
+      "required": true
+    },
+    "Lease_contracts_of_real_estate_plan": {
+      "type": "string",
+      "required": true
+    },
+    "Lease_contracts_of_real_estate_fact": {
+      "type": "string",
+      "required": true
+    },
+    "Cash_flow": {
+      "type": "string",
+      "required": true
+    },
+    "Register_of_payments": {
+      "type": "string",
+      "required": true
+    },
+    "Guarantee_guarantees": {
+      "type": "string",
+      "required": true
+    },
+    "Open_an_account": {
+      "type": "string",
+      "required": true
+    },
+    "PG_TEO_plan": {
+      "type": "string",
+      "required": true
+    },
+    "PG_TEO_fact": {
+      "type": "string",
+      "required": true
+    },
+    "IDadviser": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

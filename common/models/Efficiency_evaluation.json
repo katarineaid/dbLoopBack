@@ -1,0 +1,31 @@
+{
+  "name": "Efficiency_evaluation",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "IDassessment": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "uuid"
+    },
+    "NRH": {
+      "type": "string",
+      "required": true
+    },
+    "NResolution": {
+      "type": "string",
+      "required": true
+    },
+    "Nreport": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

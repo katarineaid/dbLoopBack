@@ -1,0 +1,31 @@
+{
+  "name": "Head",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "IDhead": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "uuid"
+    },
+    "FIO": {
+      "type": "string",
+      "required": true
+    },
+    "Occupation": {
+      "type": "string",
+      "required": true
+    },
+    "Department": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

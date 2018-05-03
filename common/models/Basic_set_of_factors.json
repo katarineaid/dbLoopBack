@@ -1,0 +1,27 @@
+{
+  "name": "Basic_set_of_factors",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ID": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "uuid"
+    },
+    "Nquestionnaire": {
+      "type": "string",
+      "required": true
+    },
+    "IDassessment": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

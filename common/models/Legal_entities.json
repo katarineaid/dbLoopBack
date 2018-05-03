@@ -1,0 +1,79 @@
+{
+  "name": "Legal_entities",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "NRH": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "uuid"
+    },
+    "NameRH": {
+      "type": "string",
+      "required": true
+    },
+    "INN": {
+      "type": "string",
+      "required": true
+    },
+    "OGRN": {
+      "type": "string",
+      "required": true
+    },
+    "KPP": {
+      "type": "string",
+      "required": true
+    },
+    "OKPO": {
+      "type": "string",
+      "required": true
+    },
+    "OKOGY": {
+      "type": "string",
+      "required": true
+    },
+    "OKVED": {
+      "type": "string",
+      "required": true
+    },
+    "OKATO": {
+      "type": "string",
+      "required": true
+    },
+    "OKOPF": {
+      "type": "string",
+      "required": true
+    },
+    "Address": {
+      "type": "string",
+      "required": true
+    },
+    "NameHead": {
+      "type": "string",
+      "required": true
+    },
+    "AvStaffingNumber": {
+      "type": "number",
+      "required": true
+    },
+    "DateStaffing": {
+      "type": "date",
+      "required": true
+    },
+    "CharterCapital": {
+      "type": "number",
+      "required": true
+    },
+    "DateCharterCapital": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

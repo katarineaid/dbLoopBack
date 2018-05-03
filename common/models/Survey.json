@@ -1,0 +1,31 @@
+{
+  "name": "Survey",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nquestionnaire": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "uuid"
+    },
+    "DateQuestionnaire": {
+      "type": "date",
+      "required": true
+    },
+    "PurposeQuestionnaire": {
+      "type": "string",
+      "required": true
+    },
+    "DesignationRE": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

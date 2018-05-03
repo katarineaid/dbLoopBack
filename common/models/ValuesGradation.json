@@ -1,0 +1,23 @@
+{
+  "name": "ValuesGradation",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "IDvalues": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "uuid"
+    },
+    "Value": {
+      "type": "array",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

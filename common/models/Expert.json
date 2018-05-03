@@ -1,0 +1,35 @@
+{
+  "name": "Expert",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "IDexpert": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "uuid"
+    },
+    "NameExpert": {
+      "type": "string",
+      "required": true
+    },
+    "Age": {
+      "type": "number",
+      "required": true
+    },
+    "DateFillQuest": {
+      "type": "date",
+      "required": true
+    },
+    "Experience": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

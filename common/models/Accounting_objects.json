@@ -1,0 +1,39 @@
+{
+  "name": "Accounting_objects",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "NAO": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "uuid"
+    },
+    "NRH": {
+      "type": "string",
+      "required": true
+    },
+    "TypeAO": {
+      "type": "string",
+      "required": true
+    },
+    "DocumentFoundation": {
+      "type": "string",
+      "required": true
+    },
+    "InfoChangeRecord": {
+      "type": "string",
+      "required": true
+    },
+    "RecordTermination": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

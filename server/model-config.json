@@ -1,0 +1,92 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Accounting_objects": {
+    "dataSource": "dbFRE",
+    "public": true
+  },
+  "Adviser": {
+    "dataSource": "dbFRE",
+    "public": true
+  },
+  "Basic_set_of_factors": {
+    "dataSource": "dbFRE",
+    "public": true
+  },
+  "Efficiency_evaluation": {
+    "dataSource": "dbFRE",
+    "public": true
+  },
+  "Expert": {
+    "dataSource": "dbFRE",
+    "public": true
+  },
+  "Gradation": {
+    "dataSource": "dbFRE",
+    "public": true
+  },
+  "Head": {
+    "dataSource": "dbFRE",
+    "public": true
+  },
+  "Legal_entities": {
+    "dataSource": "dbFRE",
+    "public": true
+  },
+  "Recording": {
+    "dataSource": "dbFRE",
+    "public": true
+  },
+  "Resolution": {
+    "dataSource": "dbFRE",
+    "public": true
+  },
+  "Survey": {
+    "dataSource": "dbFRE",
+    "public": true
+  },
+  "Survey_questionnaire": {
+    "dataSource": "dbFRE",
+    "public": true
+  },
+  "ValuesGradation": {
+    "dataSource": "dbFRE",
+    "public": true
+  },
+  "oks": {
+    "dataSource": "dbFRE",
+    "public": true
+  }
+
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Resolution",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "NResolution": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "uuid"
+    },
+    "Document": {
+      "type": "string",
+      "required": true
+    },
+    "StatusResolution": {
+      "type": "string",
+      "required": true
+    },
+    "IDhead": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

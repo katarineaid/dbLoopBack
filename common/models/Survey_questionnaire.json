@@ -1,0 +1,39 @@
+{
+  "name": "Survey_questionnaire",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ID": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "uuid"
+    },
+    "IDexpert": {
+      "type": "string",
+      "required": true
+    },
+    "IDfactor": {
+      "type": "string",
+      "required": true
+    },
+    "IDgradation": {
+      "type": "string",
+      "required": true
+    },
+    "IDvalues": {
+      "type": "string",
+      "required": true
+    },
+    "Nquestionnaire": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

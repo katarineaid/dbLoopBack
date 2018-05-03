@@ -1,0 +1,85 @@
+{
+  "name": "oks",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "Number",
+      "id": true
+    },
+    "geom": {
+      "type": "string"
+    },
+    "nao": {
+      "type": "string",
+      "required": true
+    },
+    "nrh": {
+      "type": "string",
+      "required": true
+    },
+    "namerh": {
+      "type": "string",
+      "required": true
+    },
+    "purposeao": {
+      "type": "string",
+      "required": true
+    },
+    "typepurposeao": {
+      "type": "string",
+      "required": true
+    },
+    "cadastralnumber": {
+      "type": "string",
+      "required": true
+    },
+    "area": {
+      "type": "number",
+      "required": true
+    },
+    "floors": {
+      "type": "number",
+      "required": true
+    },
+    "originalcostvalue": {
+      "type": "number",
+      "required": true
+    },
+    "okogy": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "currentrestrictions": {
+      "type": "string",
+      "required": true
+    },
+    "rnfi": {
+      "type": "string",
+      "required": true
+    },
+    "officefpa": {
+      "type": "string",
+      "required": true
+    },
+    "createdat": {
+      "type": "date",
+      "required": true
+    },
+    "updatedat": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

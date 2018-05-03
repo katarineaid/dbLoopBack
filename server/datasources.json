@@ -1,0 +1,25 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "accountDS": {
+    "host": "demo.strongloop.com",
+    "port": 27017,
+    "database": "demo",
+    "username": "demo",
+    "password": "L00pBack",
+    "name": "accountDS",
+    "connector": "mongodb"
+  },
+  "dbFRE": {
+    "host": "192.168.1.175",
+    "port": 35432,
+    "url": "",
+    "database": "dbFRE",
+    "password": "postgre",
+    "name": "dbFRE",
+    "user": "postgres",
+    "connector": "postgresql"
+  }
+}
